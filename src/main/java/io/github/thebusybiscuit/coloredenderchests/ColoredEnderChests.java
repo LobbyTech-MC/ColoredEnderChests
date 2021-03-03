@@ -39,30 +39,30 @@ public class ColoredEnderChests extends JavaPlugin implements SlimefunAddon {
             }
         }
 
-        Research enderChestsResearch = new Research(new NamespacedKey(this, "colored_enderchests"), 2610, "Colored Ender Chests", 20);
-        Research bigEnderChestsResearch = new Research(new NamespacedKey(this, "big_colored_enderchests"), 2611, "Big Colored Ender Chests", 30);
+        Research enderChestsResearch = new Research(new NamespacedKey(this, "colored_enderchests"), 2610, "彩色末影箱", 20);
+        Research bigEnderChestsResearch = new Research(new NamespacedKey(this, "big_colored_enderchests"), 2611, "大型彩色末影箱", 30);
 
         enderChestsResearch.register();
         bigEnderChestsResearch.register();
 
-        colors.put(0, "&rWhite");
-        colors.put(1, "&6Orange");
-        colors.put(2, "&dMagenta");
-        colors.put(3, "&bLight Blue");
-        colors.put(4, "&eYellow");
-        colors.put(5, "&aLime");
-        colors.put(6, "&dPink");
-        colors.put(7, "&8Dark Gray");
-        colors.put(8, "&7Light Gray");
-        colors.put(9, "&3Cyan");
-        colors.put(10, "&5Purple");
-        colors.put(11, "&9Blue");
-        colors.put(12, "&6Brown");
-        colors.put(13, "&2Green");
-        colors.put(14, "&4Red");
-        colors.put(15, "&8Black");
+        colors.put(0, "&r白");
+        colors.put(1, "&6橙");
+        colors.put(2, "&d品红");
+        colors.put(3, "&b亮蓝");
+        colors.put(4, "&e黄");
+        colors.put(5, "&a青柠");
+        colors.put(6, "&d粉");
+        colors.put(7, "&8深灰");
+        colors.put(8, "&7亮灰");
+        colors.put(9, "&3深蓝");
+        colors.put(10, "&5紫");
+        colors.put(11, "&9蓝");
+        colors.put(12, "&6棕");
+        colors.put(13, "&2绿");
+        colors.put(14, "&4红");
+        colors.put(15, "&8黑");
 
-        category = new Category(new NamespacedKey(this, "colored_enderchests"), new CustomItem(Material.ENDER_CHEST, "&5Colored Ender Chests"), 2);
+        category = new Category(new NamespacedKey(this, "colored_enderchests"), new CustomItem(Material.ENDER_CHEST, "&5彩色末影箱"), 2);
 
         for (int c1 = 0; c1 < 16; c1++) {
             for (int c2 = 0; c2 < 16; c2++) {
