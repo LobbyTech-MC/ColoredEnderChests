@@ -45,7 +45,7 @@ public class ColoredEnderChests extends JavaPlugin implements SlimefunAddon {
         enderChestsResearch.register();
         bigEnderChestsResearch.register();
 
-        colors.put(0, "&r白");
+        colors.put(0, "&f白");
         colors.put(1, "&6橙");
         colors.put(2, "&d品红");
         colors.put(3, "&b亮蓝");
